@@ -1,1 +1,4 @@
 /pics/
+/instance/
+*.log
+*.pyc

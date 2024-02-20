@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image List</title>
+</head>
+<body>
+    <h1>Image List</h1>
+    <ul>
+        {% for image in image_list %}
+            <li>
+	        <img src="{{ image.file_path }}" style="max-width: 200px; max-height: 200px;" />
+                <a href="{{ image.file_path }}" target="_blank">{{ image.filename }}</a> - Uploaded at {{ image.upload_time }}
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
+
