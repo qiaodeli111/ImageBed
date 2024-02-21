@@ -1,3 +1,4 @@
+# coding=utf-8
 #引入configparser包，它是用于读取配置文件的包
 #配置文件的格式可以为[](其中包含的为section)
 import configparser
